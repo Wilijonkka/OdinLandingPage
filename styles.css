@@ -1,4 +1,4 @@
-body > * {
+* {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -79,8 +79,41 @@ h1 {
 }
 .info {
 display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10 100px;
+height: 500px;
 }
+.infocont {
+    display: flex;
+    width: 75%;
+    height: 75%;
+    justify-content: center;
+    gap: 5%;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+}
+.pic {
+    border:5px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.infonode {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    text-align: center;
+}
+.pictext {
 
+}
 .quote {
 background-color: #E5E7EB;
 display: flex;
