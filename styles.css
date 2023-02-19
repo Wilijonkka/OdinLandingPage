@@ -4,7 +4,6 @@
 */
 body {
 display: flex;
-justify-content: space-between;
 flex-direction: column;
 height: 100vh;
 margin: 0;
@@ -14,27 +13,65 @@ padding: 0;
 .header {
 background-color: #1F2937;
 display: flex;
-flex: 3;
+flex: 1 0 25%;
+justify-content: center;
+padding: 10px 10%;
+}
+.hcontainer {
+    display: flex;  
+    flex-direction: column; 
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    font-size:24px;
+    color: #F9FAF8;
+}
+.hlinks {
+    display: flex;
+}
+.hero {
+    display: flex;   
+}
+.htext {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+h1 {
+    font-size: 48px;
+    font-family: extra-bold;
+    color: #f9faf8;
+}
+.hlinks, p1 , .himage {
+    font-size: 18px;
+    color: #e8e7eb;
+}
+.himage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .info {
 display: flex;
-flex:3;
+flex:1 0 25%;
 }
 
 .quote {
 background-color: #E5E7EB;
 display: flex;
-flex: 3;
+flex: 1 0 25%;
 }
 
 .call {
 display: flex;
-flex: 2;
+flex: 1 1 25%;
 }
 
 .footer {
 background-color: #1F2937;
 display: flex;
-flex: 1;
+flex: 0 1 5%;
 }
