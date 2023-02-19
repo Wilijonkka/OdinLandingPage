@@ -1,0 +1,40 @@
+/* {
+    border: 1px solid black;
+}
+*/
+body {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+.header {
+background-color: #1F2937;
+display: flex;
+flex: 3;
+}
+
+.info {
+display: flex;
+flex:3;
+}
+
+.quote {
+background-color: #E5E7EB;
+display: flex;
+flex: 3;
+}
+
+.call {
+display: flex;
+flex: 2;
+}
+
+.footer {
+background-color: #1F2937;
+display: flex;
+flex: 1;
+}
