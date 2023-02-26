@@ -57,14 +57,15 @@ height: 600px;
         text-decoration: none;
         padding: 5px 10px;
         font-size: 18px;
-        max-width: 150px;
+        width: 150px;
+        height: 40px;
         }
         h1 {
             font-size: 48px;
             color: #f9faf8;
             margin: 0;
         }
-        .hlinks, p1 , .himage {
+        .hlinks, p1 , .himage, .footer {
             font-size: 18px;
             color: #e8e7eb;
         }
@@ -195,5 +196,8 @@ height: 500px;
 
 .footer {
 background-color: #1F2937;
+height: 50px;
 display: flex;
+justify-content: center;
+align-items: center;
 }
